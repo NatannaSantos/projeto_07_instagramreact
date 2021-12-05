@@ -1,4 +1,5 @@
 import Esquerda from "../components/Esquerda";
+import Sidebar from "../components/Sidebar";
 
 export default function Corpo() {
     
@@ -6,6 +7,7 @@ export default function Corpo() {
         <div class="corpo">
 
             <Esquerda />
+            <Sidebar />
 
         </div>
 
