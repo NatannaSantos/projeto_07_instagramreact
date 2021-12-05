@@ -1,0 +1,23 @@
+[33mcommit 3429c509b955d6790527989d547a7810f86e0a35[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Natanna <natannacortez@gmail.com>
+Date:   Sun Dec 5 13:07:23 2021 -0300
+
+    Stories concluido
+
+[33mcommit 34656a98dd300da24d6dbbba0a7cc632a325a478[m
+Author: Natanna <natannacortez@gmail.com>
+Date:   Fri Dec 3 15:03:50 2021 -0300
+
+    construção menu topo
+
+[33mcommit 4736de636c201f8b7f5ee937aa5c3fbf8018ecfa[m
+Author: Natanna <natannacortez@gmail.com>
+Date:   Fri Dec 3 12:54:25 2021 -0300
+
+    Inicialização do projeto
+
+[33mcommit 8b7b8e832cb04721832585b631746e7607cdc27d[m
+Author: Natanna <natannacortez@gmail.com>
+Date:   Fri Dec 3 11:29:34 2021 -0300
+
+    Initialize project using Create React App

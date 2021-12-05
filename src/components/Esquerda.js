@@ -1,54 +1,75 @@
 import Storie from "../components/Storie";
+import Posts from "../components/Posts";
 
 export default function Esquerda() {
     const storys = [
         {
             imagem: "9gag.svg",
             usuario: "9gag",
-            categoria: "stories"
+            
         },
         {
             imagem: "meowed.svg",
             usuario: "meowed",
-            categoria: "stories"
+            
         },
         {
             imagem: "barked.svg",
             usuario: "barked",
-            categoria: "stories"
+            
         },
         {
             imagem: "nathanwpylestrangeplanet.svg",
             usuario: "nathanwpylestrangeplanet",
-            categoria: "stories"
+          
         },
         {
             imagem: "wawawicomics.svg",
             usuario: "wawawicomics",
-            categoria: "stories"
+            
         },
         {
             imagem: "respondeai.svg",
             usuario: "respondeai",
-            categoria: "stories"
+            
         },
         {
             imagem: "filomoderna.svg",
             usuario: "filomoderna",
-            categoria: "stories"
+            
         },
         {
             imagem: "memeriagourmet.svg",
             usuario: "memeriagourmet",
-            categoria: "stories"
+            
         },
 
     ]
+
+    const post = [
+        {
+            imagem: "meowed.svg",
+            usuario:  "meowed",
+            imagemDois: "gato-telefone.svg",
+            imagemTres: "respondeai.svg",
+            usuarioDois: "respondeai",
+            numeroPessoas: "101.523"
+
+        },
+        {
+            imagem: "barked.svg",
+            usuario:  "barked",
+            imagemDois: "dog.svg",
+            imagemTres: "adorable_animals.svg",
+            usuarioDois: "adorable_animals",
+            numeroPessoas: "99.159"
+        },
+    ]
+
     return (
         <div class="esquerda">
             <div class="stories">
                 {storys
-                    .filter((n) => n.categoria === "stories")
                     .map((n) => (
                         <Storie
                             imagem={n.imagem}
@@ -59,7 +80,19 @@ export default function Esquerda() {
                     <ion-icon name="chevron-forward-circle"></ion-icon>
                 </div>
             </div>
-
+            <div class = "posts">
+            {post
+                    .map((m) => (
+                        <Posts
+                            imagem={m.imagem}
+                            usuario={m.usuario}
+                            imagemDois={m.imagemDois}
+                            imagemTres={m.imagemTres}
+                            usuarioDois={m.usuarioDois}
+                            numeroPessoas={m.numeroPessoas}
+                        />
+                    ))}
+            </div>
         </div>
 
     );

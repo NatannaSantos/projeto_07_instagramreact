@@ -149,6 +149,7 @@
   }
   
   .post {
+    background-color: #FFFFFF;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     display: flex;
