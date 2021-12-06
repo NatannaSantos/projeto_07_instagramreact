@@ -53,8 +53,7 @@ export default function Esquerda() {
             imagemDois: "gato-telefone.svg",
             imagemTres: "respondeai.svg",
             usuarioDois: "respondeai",
-            numeroPessoas: "101.523"
-
+            numeroPessoas: "101.523",
         },
         {
             imagem: "barked.svg",
@@ -63,7 +62,7 @@ export default function Esquerda() {
             imagemTres: "adorable_animals.svg",
             usuarioDois: "adorable_animals",
             numeroPessoas: "99.159"
-        },
+        }
     ]
 
     return (

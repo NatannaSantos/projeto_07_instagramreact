@@ -201,7 +201,6 @@
     padding: 0 16px 13px;
     font-weight: 300;
   }
-  
   .post .fundo .curtidas img {
     width: 20px;
     height: 20px;
@@ -216,8 +215,13 @@
     padding-top: 24px;
     position: sticky;
     top: 88px;
+    position: fixed;
+    margin-right:0;
+    margin-left: 650px;
   }
-  
+  strong{
+    font-weight: bold;
+  }
   .sidebar > .usuario {
     display: flex;
     align-items: center;

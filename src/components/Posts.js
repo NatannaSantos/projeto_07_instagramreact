@@ -30,9 +30,9 @@ export default function Posts(props) {
                 <div class="curtidas">
                 {props.imagemTres && <img src={`assets/img/${props.imagemTres}`} />}
                     <div class="texto">
-                        Curtido por <strong>{props.usuarioDois}</strong> e <strong>outras {props.numeroPessoas} pessoas</strong>
-                    </div>
-                </div>
+                        Curtido por <strong> {props.usuarioDois} </strong> e <strong> outras {props.numeroPessoas} pessoas </strong>
+                    </div>                                   
+                </div>                              
             </div>
         </div>
     );
