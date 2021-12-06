@@ -3,7 +3,7 @@ export default function Posts(props) {
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                {props.imagem && <img src={`assets/img/${props.imagem}`} />}
+                    {props.imagem && <img src={`assets/img/${props.imagem}`} />}
                     {props.usuario}
                 </div>
                 <div class="acoes">
@@ -12,7 +12,7 @@ export default function Posts(props) {
             </div>
 
             <div class="conteudo">
-               {props.imagemDois && <img src={`assets/img/${props.imagemDois}`} />}
+                {props.imagemDois && <img src={`assets/img/${props.imagemDois}`} />}
             </div>
 
             <div class="fundo">
@@ -28,11 +28,18 @@ export default function Posts(props) {
                 </div>
 
                 <div class="curtidas">
-                {props.imagemTres && <img src={`assets/img/${props.imagemTres}`} />}
+                    {props.imagemTres && <img src={`assets/img/${props.imagemTres}`} />}
                     <div class="texto">
                         Curtido por <strong> {props.usuarioDois} </strong> e <strong> outras {props.numeroPessoas} pessoas </strong>
-                    </div>                                   
-                </div>                              
+                    </div>
+                </div>
+            </div>
+            <div class="comentario">
+                <div class= "adicao">
+                    <ion-icon name="happy-outline"></ion-icon>
+                    <input placeholder="Adicione um comentário"></input>
+                </div>
+                <strong>Publicar</strong>
             </div>
         </div>
     );

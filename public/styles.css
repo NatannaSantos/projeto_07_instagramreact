@@ -157,7 +157,7 @@
     margin-top: 18px;
   }
   
-  .post .topo {
+  .post .topo{
     display: flex;
     justify-content: space-between;
     padding: 13px 16px;
@@ -206,9 +206,40 @@
     height: 20px;
     margin-right: 10px;
   }
+  .comentario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-top:1px solid #DBDBDB;
+    padding-left: 16px;
+    padding-right: 13px;
+  }
+  .comentario ion-icon{
+    font-size: 30px;
+  }
+  .comentario .adicao{
+    display: flex;
+    align-items: center;
+  }
+  .comentario input:focus, .comentario input{
+    width: 500px;
+    border: none;
+    outline:0;
+  }
+  .comentario strong{
+    color: #B2DFFC;
+  }
+  .comentario strong:hover{
+    color: #0095F6;
+    transition: color 0,3s;
+  }
   
   .post:last-child {
     margin-bottom: 18px;
+  }
+  strong{
+    font-weight: bold;
   }
   
   .sidebar {
@@ -218,10 +249,7 @@
     position: fixed;
     margin-right:0;
     margin-left: 650px;
-  }
-  strong{
-    font-weight: bold;
-  }
+  } 
   .sidebar > .usuario {
     display: flex;
     align-items: center;
