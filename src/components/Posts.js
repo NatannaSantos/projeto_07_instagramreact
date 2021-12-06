@@ -33,9 +33,23 @@ export default function Posts(props) {
                         Curtido por <strong> {props.usuarioDois} </strong> e <strong> outras {props.numeroPessoas} pessoas </strong>
                     </div>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarioSimples">
+                        <div class="texto">
+                            <strong>{props.usuarioTres} </strong> {props.texto}
+                        </div>
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </div>
+                    <div class="comentarioSimples">
+                        <div class="texto">
+                            <strong>{props.usuarioQuatro} </strong> {props.textoDois}
+                        </div>
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </div>
+                </div>
             </div>
             <div class="comentario">
-                <div class= "adicao">
+                <div class="adicao">
                     <ion-icon name="happy-outline"></ion-icon>
                     <input placeholder="Adicione um comentário"></input>
                 </div>

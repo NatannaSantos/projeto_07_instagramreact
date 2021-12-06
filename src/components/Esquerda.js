@@ -54,6 +54,10 @@ export default function Esquerda() {
             imagemTres: "respondeai.svg",
             usuarioDois: "respondeai",
             numeroPessoas: "101.523",
+            usuarioTres:"respondeai",
+            texto:"lindo",
+            usuarioQuatro:"razoesparaacreditar",
+            textoDois:"Cara de mau"
         },
         {
             imagem: "barked.svg",
@@ -61,7 +65,11 @@ export default function Esquerda() {
             imagemDois: "dog.svg",
             imagemTres: "adorable_animals.svg",
             usuarioDois: "adorable_animals",
-            numeroPessoas: "99.159"
+            numeroPessoas: "99.159",
+            usuarioTres:"adorable_animals",
+            texto:"Que fofinho!",
+            usuarioQuatro:"meowed",
+            textoDois:"iti malia"
         }
     ]
 
@@ -89,6 +97,10 @@ export default function Esquerda() {
                             imagemTres={m.imagemTres}
                             usuarioDois={m.usuarioDois}
                             numeroPessoas={m.numeroPessoas}
+                            usuarioTres={m.usuarioTres}
+                            texto={m.texto}
+                            usuarioQuatro={m.usuarioQuatro}
+                            textoDois={m.textoDois}
                         />
                     ))}
             </div>

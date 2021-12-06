@@ -234,7 +234,16 @@
     color: #0095F6;
     transition: color 0,3s;
   }
-  
+  .comentarioSimples{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 13px;
+  }
+  .comentarioSimples .texto{
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
   .post:last-child {
     margin-bottom: 18px;
   }
