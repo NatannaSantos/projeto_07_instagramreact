@@ -6,42 +6,42 @@ export default function Esquerda() {
         {
             imagem: "9gag.svg",
             usuario: "9gag",
-            
+
         },
         {
             imagem: "meowed.svg",
             usuario: "meowed",
-            
+
         },
         {
             imagem: "barked.svg",
             usuario: "barked",
-            
+
         },
         {
             imagem: "nathanwpylestrangeplanet.svg",
             usuario: "nathanwpylestrangeplanet",
-          
+
         },
         {
             imagem: "wawawicomics.svg",
             usuario: "wawawicomics",
-            
+
         },
         {
             imagem: "respondeai.svg",
             usuario: "respondeai",
-            
+
         },
         {
             imagem: "filomoderna.svg",
             usuario: "filomoderna",
-            
+
         },
         {
             imagem: "memeriagourmet.svg",
             usuario: "memeriagourmet",
-            
+
         },
 
     ]
@@ -49,27 +49,27 @@ export default function Esquerda() {
     const post = [
         {
             imagem: "meowed.svg",
-            usuario:  "meowed",
+            usuario: "meowed",
             imagemDois: "gato-telefone.svg",
             imagemTres: "respondeai.svg",
             usuarioDois: "respondeai",
             numeroPessoas: "101.523",
-            usuarioTres:"respondeai",
-            texto:"lindo",
-            usuarioQuatro:"razoesparaacreditar",
-            textoDois:"Cara de mau"
+            usuarioTres: "respondeai",
+            texto: "lindo",
+            usuarioQuatro: "razoesparaacreditar",
+            textoDois: "Cara de mau"
         },
         {
             imagem: "barked.svg",
-            usuario:  "barked",
+            usuario: "barked",
             imagemDois: "dog.svg",
             imagemTres: "adorable_animals.svg",
             usuarioDois: "adorable_animals",
             numeroPessoas: "99.159",
-            usuarioTres:"adorable_animals",
-            texto:"Que fofinho!",
-            usuarioQuatro:"meowed",
-            textoDois:"iti malia"
+            usuarioTres: "adorable_animals",
+            texto: "Que fofinho!",
+            usuarioQuatro: "meowed",
+            textoDois: "iti malia"
         }
     ]
 
@@ -87,8 +87,8 @@ export default function Esquerda() {
                     <ion-icon name="chevron-forward-circle"></ion-icon>
                 </div>
             </div>
-            <div class = "posts">
-            {post
+            <div class="posts">
+                {post
                     .map((m) => (
                         <Posts
                             imagem={m.imagem}

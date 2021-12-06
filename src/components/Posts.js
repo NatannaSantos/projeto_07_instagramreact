@@ -51,10 +51,14 @@ export default function Posts(props) {
             <div class="comentario">
                 <div class="adicao">
                     <ion-icon name="happy-outline"></ion-icon>
-                    <input placeholder="Adicione um comentário"></input>
+                    <input placeholder="Adicione um comentário..."></input>
                 </div>
                 <strong>Publicar</strong>
             </div>
         </div>
     );
 }
+
+
+
+
